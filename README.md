@@ -1,8 +1,3 @@
-# CFR-RL: Traffic Engineering with Reinforcement Learning in SDN
-
-This is a Tensorflow implementation of CFR-RL as described in our paper:
-
-Junjie Zhang, Minghao Ye, Zehua Guo, Chen-Yu Yen, H. Jonathan Chao, "[CFR-RL: Traffic Engineering With Reinforcement Learning in SDN](https://arxiv.org/abs/2004.11986)," in IEEE Journal on Selected Areas in Communications, vol. 38, no. 10, pp. 2249-2259, Oct. 2020, doi: 10.1109/JSAC.2020.3000371.
 
 # Prerequisites
 
