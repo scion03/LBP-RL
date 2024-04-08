@@ -1,7 +1,7 @@
 class NetworkConfig(object):
-  scale = 100
+  scale = 10
 
-  max_step = 1000 * scale
+  max_step = 100 * scale
   
   initial_learning_rate = 0.0001
   learning_rate_decay_rate = 0.96
@@ -9,8 +9,8 @@ class NetworkConfig(object):
   moving_average_decay = 0.9999
   entropy_weight = 0.1
 
-  save_step = 10 * scale
-  max_to_keep = 1000
+  save_step = 1 * scale
+  max_to_keep = 100
 
   Conv2D_out = 128
   Dense_out = 128

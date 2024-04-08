@@ -13,9 +13,9 @@ from model import Network
 from config import get_config
 
 FLAGS = flags.FLAGS
-flags.DEFINE_integer('num_agents', 2, 'number of agents')
+flags.DEFINE_integer('num_agents', 20, 'number of agents')
 flags.DEFINE_string('baseline', 'avg', 'avg: use average reward as baseline, best: best reward as baseline')
-flags.DEFINE_integer('num_iter', 1, 'Number of iterations each agent would run')
+flags.DEFINE_integer('num_iter', 10, 'Number of iterations each agent would run')
 
 GRADIENTS_CHECK=False
 
